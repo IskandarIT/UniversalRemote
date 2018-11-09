@@ -31,5 +31,10 @@ public class Device {
             System.out.println("Устройства уже выключено!!!"+" "+getName());
 
     }
+    public void kanal(boolean zustand){
+        if(zustand==true){
+            System.out.println("Otkryt");
+        }
+    }
 
 }
